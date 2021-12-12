@@ -1,6 +1,7 @@
 pragma solidity >=0.7.0 <0.9.0;
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
 
 contract Ponpave is ERC721Enumerable, Ownable {
   using Strings for uint256;
